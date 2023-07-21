@@ -5,7 +5,17 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: Text('my first app'),
+        centerTitle: true,
+        backgroundColor: Colors.red[600],
       ),
+      body: Center(
+        child: Text ('Hello World'),
+
+      ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {  },
+          child:Text('click'),
+        ),
     ),
   ));
 }
